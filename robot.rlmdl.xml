@@ -28,12 +28,6 @@
     <frame id="frame1"/>
     <body id="body1">
       <ignore idref="body0"/>
-      <ignore idref="body2"/>
-      <ignore idref="body3"/>
-      <ignore idref="body4"/>
-      <ignore idref="body5"/>
-      <ignore idref="body6"/>
-      <ignore idref="body7"/>
       <cm>
         <x>-0.001201</x>
         <y>0.024513</y>
@@ -54,11 +48,6 @@
     <body id="body2">
       <ignore idref="body0"/>
       <ignore idref="body1"/>
-      <ignore idref="body3"/>
-      <ignore idref="body4"/>
-      <ignore idref="body5"/>
-      <ignore idref="body6"/>
-      <ignore idref="body7"/>
       <cm>
         <x>0.02195</x>
         <y>-0.02664</y>
@@ -79,10 +68,6 @@
       <ignore idref="body0"/>
       <ignore idref="body1"/>
       <ignore idref="body2"/>
-      <ignore idref="body4"/>
-      <ignore idref="body5"/>
-      <ignore idref="body6"/>
-      <ignore idref="body7"/>
       <cm>
         <x>0.21398</x>
         <y>-0.01621</y>
@@ -105,9 +90,6 @@
       <ignore idref="body1"/>
       <ignore idref="body2"/>
       <ignore idref="body3"/>
-      <ignore idref="body5"/>
-      <ignore idref="body6"/>
-      <ignore idref="body7"/>
       <cm>
         <x>0.01014</x>
         <y>0.00032</y>
@@ -123,87 +105,14 @@
       </i>
       <m>1.90327</m>
     </body>
-    <frame id="frame7"/>
-    <body id="body5">
-      <ignore idref="body0"/>
-      <ignore idref="body1"/>
-      <ignore idref="body2"/>
-      <ignore idref="body3"/>
-      <ignore idref="body4"/>
-      <ignore idref="body6"/>
-      <ignore idref="body7"/>
-      <cm>
-        <x>0.18791</x>
-        <y>-0.00017</y>
-        <z>-0.00912</z>
-      </cm>
-      <i>
-        <xx>0.00364857222</xx>
-        <xy>0.00005215877</xy>
-        <xz>0.00071534842</xz>
-        <yy>0.01507736897</yy>
-        <yz>-0.00001310770</yz>
-        <zz>0.01659310749</zz>
-      </i>
-      <m>2.57968</m>
-    </body>
-    <frame id="frame8"/>
-    <body id="body6">
-      <ignore idref="body0"/>
-      <ignore idref="body1"/>
-      <ignore idref="body2"/>
-      <ignore idref="body3"/>
-      <ignore idref="body4"/>
-      <ignore idref="body5"/>
-      <ignore idref="body7"/>
-      <cm>
-        <x>-0.00157</x>
-        <y>0.0</y>
-        <z>-0.00075</z>
-      </cm>
-      <i>
-        <xx>0.00065165722</xx>
-        <xy>0.00000028864</xy>
-        <xz>0.00000303477</xz>
-        <yy>0.00019824443</yy>
-        <yz>-0.00000022645</yz>
-        <zz>0.00064450498</zz>
-      </i>
-      <m>0.61402</m>
-    </body>
-    <frame id="frame9"/>
-    <body id="body7">
-      <ignore idref="body0"/>
-      <ignore idref="body1"/>
-      <ignore idref="body2"/>
-      <ignore idref="body3"/>
-      <ignore idref="body4"/>
-      <ignore idref="body5"/>
-      <ignore idref="body6"/>
-      <cm>
-        <x>0.06623</x>
-        <y>0.00053</y>
-        <z>-0.00119</z>
-      </cm>
-      <i>
-        <xx>0.00035223921</xx>
-        <xy>-0.00001580476</xy>
-        <xz>-0.00000091750</xz>
-        <yy>0.00067741312</yy>
-        <yz>-0.00000059554</yz>
-        <zz>0.00086563316</zz>
-      </i>
-      <m>0.58007</m>
-    </body>
-    <frame id="frame10"/>
 
-    <fixed id="fixed0">
+   <fixed id="fixed0">
       <frame>
         <a idref="world"/>
         <b idref="body0"/>
       </frame>
       <rotation>
-        <x>-90</x>
+        <x>0</x>
         <y>0</y>
         <z>0</z>
       </rotation>
@@ -233,7 +142,7 @@
         <b idref="frame1"/>
       </frame>
       <rotation>
-        <x>0</x>
+        <x>180</x>
         <y>0</y>
         <z>0</z>
       </rotation>
@@ -249,9 +158,9 @@
         <b idref="body1"/>
       </frame>
       <rotation>
-        <x>90</x>
+        <x>-90</x>
         <y>0</y>
-        <z>90</z>
+        <z>0</z>
       </rotation>
       <translation>
         <x>0</x>
@@ -279,13 +188,13 @@
         <b idref="frame3"/>
       </frame>
       <rotation>
-        <x>-90</x>
+        <x>0</x>
         <y>0</y>
         <z>0</z>
       </rotation>
       <translation>
         <x>0</x>
-        <y>0</y>
+        <y>-0.4</y>
         <z>0</z>
       </translation>
     </fixed>
@@ -295,14 +204,14 @@
         <b idref="body2"/>
       </frame>
       <rotation>
-        <x>0</x>
-        <y>0</y>
+        <x>-90</x>
+        <y>90</y>
         <z>0</z>
       </rotation>
       <translation>
         <x>0</x>
         <y>0</y>
-        <z>0.4</z>
+        <z>0</z>
       </translation>
     </fixed>
     <revolute id="joint2">
@@ -326,7 +235,7 @@
       </frame>
       <rotation>
         <x>90</x>
-        <y>0</y>
+        <y>-90</y>
         <z>0</z>
       </rotation>
       <translation>
@@ -355,7 +264,7 @@
         <b idref="frame6"/>
       </frame>
       <rotation>
-        <x>-90</x>
+        <x>0</x>
         <y>0</y>
         <z>0</z>
       </rotation>
@@ -372,129 +281,20 @@
       </frame>
       <rotation>
         <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </rotation>
-      <translation>
-        <x>0.321</x>
-        <y>0</y>
-        <z>0</z>
-      </translation>
-    </fixed>
-    <revolute id="joint4">
-      <axis>
-        <x>0</x>
-        <y>0</y>
-        <z>1</z>
-      </axis>
-      <frame>
-        <a idref="body4"/>
-        <b idref="frame7"/>
-      </frame>
-      <max>2700</max>
-      <min>-2700</min>
-      <speed>206</speed>
-    </revolute>
-    <fixed id="fixed8">
-      <frame>
-        <a idref="frame7"/>
-        <b idref="body5"/>
-      </frame>
-      <rotation>
-        <x>90</x>
-        <y>0</y>
+        <y>-90</y>
         <z>0</z>
       </rotation>
       <translation>
         <x>0</x>
         <y>0</y>
-        <z>0</z>
-      </translation>
-    </fixed>
-    <revolute id="joint5">
-      <frame>
-        <a idref="body5"/>
-        <b idref="frame8"/>
-      </frame>
-      <axis>
-        <x>0</x>
-        <y>0</y>
-        <z>1</z>
-      </axis>
-      <max>0</max>
-      <min>-124.9047993</min>
-      <speed>550</speed>
-    </revolute>
-    <fixed id="fixed9">
-      <frame>
-        <a idref="frame8"/>
-        <b idref="body6"/>
-      </frame>
-      <rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </rotation>
-      <translation>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </translation>
-    </fixed>
-    <revolute id="joint6">
-      <frame>
-        <a idref="body6"/>
-        <b idref="frame9"/>
-      </frame>
-      <axis>
-        <x>0</x>
-        <y>0</y>
-        <z>1</z>
-      </axis>
-      <max>2700</max>
-      <min>-2700</min>
-      <speed>206</speed>
-    </revolute>
-    <fixed id="fixed10">
-      <frame>
-        <a idref="frame9"/>
-        <b idref="body7"/>
-      </frame>
-      <rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </rotation>
-      <translation>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </translation>
-    </fixed>
-    <fixed id="fixed11">
-      <frame>
-        <a idref="body7"/>
-        <b idref="frame10"/>
-      </frame>
-      <rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </rotation>
-      <translation>
-        <x>0.16828</x>
-        <y>-0.01495</y>
         <z>0</z>
       </translation>
     </fixed>
     <home>
-      <q unit="deg">-22.91831181</q>
-      <q unit="deg">57.29577951</q>
+      <q unit="deg">-22.878</q>
+      <q unit="deg">57.794</q>
       <q unit="deg">0</q>
-      <q unit="deg">-117.29377951</q>
-      <q unit="deg">0</q>
-      <q unit="deg">-5.729577951</q>
-      <q unit="deg">0</q>
+      <q unit="deg">-116.786</q>
     </home>
   </model>
 </rlmdl>
