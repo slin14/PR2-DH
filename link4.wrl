@@ -1,11 +1,14 @@
 #VRML V2.0 utf8
 
 DEF link4 Transform {
-translation 0 0 0
+rotation 0 0 1 -1.570796
+translation 0 0 0.321
 scale 1000 1000 1000
 children[
 
-
+Transform {
+rotation 0 1 0 1.570796
+children [
 
 Transform {
 children [
@@ -276,6 +279,9 @@ colorPerVertex FALSE
 normalPerVertex TRUE
 }
 }
+]
+}
+
 ]
 }
 

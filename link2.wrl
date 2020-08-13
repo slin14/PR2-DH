@@ -3,7 +3,8 @@
 
 DEF link2 Transform {
 scale 1000 1000 1000
-rotation -1 0 0 1.570796
+#rotation 0 -1 0 1.570796
+translation 0 0 -.4
 children[
 
 Transform {

@@ -3,8 +3,14 @@
 DEF link1 Transform {
 
 scale 1000 1000 1000
+rotation 1 0 0 1.570796
 translation 0 0 0
 children[
+
+
+Transform {
+rotation 0 1 0 -1.570796
+children [
 
 Transform {
 children [
@@ -288,6 +294,9 @@ normalPerVertex TRUE
 ]
 }
 
+
+]
+}
 
 ]
 }
