@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sophi\rl-0.7.0\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="forearm_roll.wrl" />
+    <None Include="robot.wrl" />
+    <None Include="link5.wrl" />
+    <None Include="link2.wrl" />
+    <None Include="link1.wrl" />
+    <None Include="link0.wrl" />
+    <None Include="link3.wrl" />
+    <None Include="link4.wrl" />
+    <None Include="link6.wrl" />
+    <None Include="link7.wrl" />
+    <None Include="upper_finger_r.wrl" />
+    <None Include="gripper_palm.wrl" />
+    <None Include="finger_tip_r.wrl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="robot.rlmdl.xml" />
+    <Xml Include="robot.rlsg.xml" />
+  </ItemGroup>
+</Project>
