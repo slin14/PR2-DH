@@ -498,9 +498,9 @@
         <b idref="frame12"/>
       </frame>
       <axis>
-        <x>0</x>
+        <x>1</x>
         <y>0</y>
-        <z>1</z>
+        <z>0</z>
       </axis>
       <max>2700</max>
       <min>-2700</min>
