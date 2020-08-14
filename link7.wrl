@@ -2,6 +2,7 @@
 
 
 DEF link7 Transform {
+rotation 1 0 0 1.570796
 translation -0.025 0 0
 scale 1000 1000 1000
 children[
