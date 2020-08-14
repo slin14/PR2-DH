@@ -2,8 +2,8 @@
 
 
 DEF link5 Transform {
-#rotation 0 -1 0 1.570796
-translation -0.32 0 0
+rotation 0 0 1 -1.570796
+translation 0 0.321 0
 scale 1000 1000 1000
 children[
 
