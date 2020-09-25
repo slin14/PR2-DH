@@ -27,13 +27,6 @@
     <frame id="frame0"/>
     <frame id="frame1"/>
     <body id="body1">
-      <ignore idref="body0"/>
-      <ignore idref="body2"/>
-      <ignore idref="body3"/>
-      <ignore idref="body4"/>
-      <ignore idref="body5"/>
-      <ignore idref="body6"/>
-      <ignore idref="body7"/>
       <cm>
         <x>-0.001201</x>
         <y>0.024513</y>
@@ -52,13 +45,6 @@
     <frame id="frame2"/>
     <frame id="frame3"/>
     <body id="body2">
-      <ignore idref="body0"/>
-      <ignore idref="body1"/>
-      <ignore idref="body3"/>
-      <ignore idref="body4"/>
-      <ignore idref="body5"/>
-      <ignore idref="body6"/>
-      <ignore idref="body7"/>
       <cm>
         <x>0.02195</x>
         <y>-0.02664</y>
@@ -77,13 +63,6 @@
     <frame id="frame4"/>
     <frame id="frame5"/>
     <body id="body3">
-      <ignore idref="body0"/>
-      <ignore idref="body1"/>
-      <ignore idref="body2"/>
-      <ignore idref="body4"/>
-      <ignore idref="body5"/>
-      <ignore idref="body6"/>
-      <ignore idref="body7"/>
       <cm>
         <x>0.21398</x>
         <y>-0.01621</y>
@@ -102,13 +81,6 @@
     <frame id="frame6"/>
     <frame id="frame7"/>
     <body id="body4">
-      <ignore idref="body0"/>
-      <ignore idref="body1"/>
-      <ignore idref="body2"/>
-      <ignore idref="body3"/>
-      <ignore idref="body5"/>
-      <ignore idref="body6"/>
-      <ignore idref="body7"/>
       <cm>
         <x>0.01014</x>
         <y>0.00032</y>
@@ -127,13 +99,6 @@
     <frame id="frame8"/>
     <frame id="frame9"/>
     <body id="body5">
-      <ignore idref="body0"/>
-      <ignore idref="body1"/>
-      <ignore idref="body2"/>
-      <ignore idref="body3"/>
-      <ignore idref="body4"/>
-      <ignore idref="body6"/>
-      <ignore idref="body7"/>
       <cm>
         <x>0.18791</x>
         <y>-0.00017</y>
@@ -152,13 +117,6 @@
     <frame id="frame10"/>
     <frame id="frame11"/>
     <body id="body6">
-      <ignore idref="body0"/>
-      <ignore idref="body1"/>
-      <ignore idref="body2"/>
-      <ignore idref="body3"/>
-      <ignore idref="body4"/>
-      <ignore idref="body5"/>
-      <ignore idref="body7"/>
       <cm>
         <x>-0.00157</x>
         <y>0.0</y>
@@ -176,13 +134,6 @@
     </body>
     <frame id="frame12"/>
     <body id="body7">
-      <ignore idref="body0"/>
-      <ignore idref="body1"/>
-      <ignore idref="body2"/>
-      <ignore idref="body3"/>
-      <ignore idref="body4"/>
-      <ignore idref="body5"/>
-      <ignore idref="body6"/>
       <cm>
         <x>0.06623</x>
         <y>0.00053</y>
@@ -533,19 +484,19 @@
         <z>0</z>
       </rotation>
       <translation>
-        <x>0.16828</x>
-        <y>-0.01495</y>
+        <x>0.18</x>
+        <y>0</y>
         <z>0</z>
       </translation>
     </fixed>
     <home>
-      <q unit="deg">-22.91831181</q>
-      <q unit="deg">57.29577951</q>
-      <q unit="deg">0</q>
-      <q unit="deg">-117.29377951</q>
-      <q unit="deg">0</q>
-      <q unit="deg">-5.729577951</q>
-      <q unit="deg">0</q>
+      <q unit="deg">-37.804</q>
+      <q unit="deg">0.02865</q>
+      <q unit="deg">-53.222</q>
+      <q unit="deg">-48.306</q>
+      <q unit="deg">-7.105</q>
+      <q unit="deg">-4.910</q>
+      <q unit="deg">0.21199</q>
     </home>
   </model>
 </rlmdl>
